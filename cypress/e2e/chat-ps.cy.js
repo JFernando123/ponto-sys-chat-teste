@@ -23,10 +23,14 @@ describe('cy.origin()',()=>{
 
       cy.get('button[type="submit"]').click()
 
-      cy.origin('https://contact.adtechtelecom.com.br/chatclient/chat.php', ()=> {
-        cy.wait(2000)
-        cy.get('button #end-chat-up').click()
-      })
+      cy.wait(5000)
+
+      cy.get('[data-i18n="action.finalizar"]').should('be.visible').click()   
+
+
+      //cy.origin('https://contact.adtechtelecom.com.br/chatclient/chat.php', ()=> {        
+      //  cy.get('button #end-chat-up').click()
+      //})
 
       //cy.get('button[type="submit"]').click().wait(2000).contains('button','Cancelar').click()
       //cy.wait(4000)
