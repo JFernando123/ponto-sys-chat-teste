@@ -1,0 +1,14 @@
+Desafio Técnico
+
+Você deverá criar um cenário de teste automatizado que simula o seguinte fluxo no site da Ponto.Sys:
+
+1. Acessar o site da Ponto.Sys: https://pontosys.com.
+2. Fechar o comunicado inicial: Uma janela inicial aparecerá na tela; feche-a.
+3. Acessar o chat de atendimento:
+     * Clique no botão "Chat de atendimento".
+     * Isso redirecionará para uma nova página com um formulário.
+4. Preencher o formulário e iniciar atendimento:
+     * Preencha o formulário com os dados solicitados.
+     * Clique no botão "Iniciar atendimento".
+5. Finalizar o atendimento:
+     * Na telinha do chat que abrirá, clique em "Cancelar" para encerrar o atendimento.
