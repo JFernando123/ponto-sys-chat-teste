@@ -23,6 +23,8 @@ describe('cy.origin()',()=>{
 
       cy.get('button[type="submit"]').click()
 
+      cy.url().should('eq', 'https://contact.adtechtelecom.com.br/chatclient/chat.php');
+
       cy.wait(5000)
 
       cy.get('[data-i18n="action.finalizar"]').should('be.visible').click()   
