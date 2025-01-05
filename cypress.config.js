@@ -6,5 +6,4 @@ module.exports = defineConfig({
     env:{ hideXr: true},
     experimentalModifyObstructiveThirdPartyCode: true,
   },
-  fixturesFolder: false,
 });
